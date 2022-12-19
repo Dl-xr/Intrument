@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>instrument</title>
+        <style>
+            body{
+                background-image: url('ocarina.jpg');
+                background-repeat: no-repeat;
+                background-size:contain; 
+            }
+            #miniSong{
+                height: 90px;
+                width: 130px;
+                background-color: transparent;
+                position: relative;
+                bottom: 290px;
+                left: 550px;
+            }
+            #note1{
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 300px;
+                left: 660px;
+            }
+            #note2{
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 320px;
+                left: 760px;
+            }
+            #note3{
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 270px;
+                left: 655px;
+            }
+            #note4{
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 240px;
+                left: 550px;
+            }
+            #note5{
+                height: 60px;
+                width: 60px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 240px;
+                left: 455px;
+            }
+            #note6{
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 45px;
+                left: 425px;
+            }
+            #note7{
+                height: 35px;
+                width: 35px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 55px;
+                left: 325px;
+            }
+            #note8{
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 70px;
+                left: 340px;
+            }
+            #note9{
+                height: 40px;
+                width: 40px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                top: 25px;
+                left: 215px;
+            }
+            #note10{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                background-color: transparent;
+                position: relative;
+                left: 120px;
+                bottom: 10px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="note1" onclick="note1.play()"></div>
+        <div id="note2" onclick="note2.play()"></div>
+        <div id="note3" onclick="note3.play()"></div>
+        <div id="note4" onclick="note4.play()"></div>
+        <div id="note5" onclick="note5.play()"></div>
+        <div id="note6" onclick="note6.play()"></div>
+        <div id="note7" onclick="note7.play()"></div>
+        <div id="note8" onclick="note8.play()"></div>
+        <div id="note9" onclick="note9.play()"></div>
+        <div id="note10" onclick="note10.play()"></div>
+        <div id="miniSong" onclick="miniSong.play()"></div>
+    </body>
+
+    <script>
+        let note1 = new Audio('Ocarina1.mp3');
+        let note2 = new Audio('Ocarina2.mp3');
+        let note3 = new Audio('Ocarina3.mp3');
+        let note4 = new Audio('Ocarina4.mp3');
+        let note5 = new Audio('Ocarina5.mp3');
+        let note6 = new Audio('Ocarina6.mp3');
+        let note7 = new Audio('Ocarina7.mp3');
+        let note8 = new Audio('Ocarina8.mp3');
+        let note9 = new Audio('Ocarina9.mp3');
+        let note10 = new Audio('Ocarina10.mp3');
+        let miniSong = new Audio('OcarinaSpecial.mp3')
+
+
+    </script>
+</html>
